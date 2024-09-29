@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color:rgb(177, 19, 19);
+    color: white;
+    height: 50pxpx;
+    padding: 10px;
+    
+
+    
+}
+li,h2,ul{
+    display: inline-block;
+    padding: 10px;
+    padding-top:9px;
+    
+}
+ul{
+    position: relative;
+    left:60%;
+}
+li:hover{
+    color: rgb(5, 41, 201);
+    cursor:pointer;
+}
+
+h1{
+    
+    padding:40px;
+    margin: 5px;
+}
+.main{ 
+    background-color: aqua;
+    color: white;
+}
+.company{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    
+}
+.company{
+    display: inline-block;
+    flex-wrap: wrap;
+
+    
+}
+.border{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-basis: 20%;
+
+    
+}
+.company:hover{
+    color: black;
+}
+.contact{
+    text-align: center;
+}
+.line{
+    text-align: center;
+}
